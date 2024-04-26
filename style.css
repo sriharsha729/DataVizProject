@@ -1,0 +1,44 @@
+.hoverable {
+    background-color: #ddd;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.hoverable:hover {
+    background-color: rgb(251, 49, 49);
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    width: 100%;
+    background-color: rgb(238, 144, 144);
+    font-family: Impact;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-gap: 2px;
+  }
+  
+  .grid-item-3x3 {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+
+  .nav {
+    display: flex;
+    flex: 1 1 20%;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  .grid-container-DB {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px;
+  }

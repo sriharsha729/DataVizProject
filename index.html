@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scientific Data Visualization</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+       .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 15vh;
+            width: 100%;
+            background-color: rgba(239, 49, 49, 0.779);
+          }
+        
+
+        h1,
+        h2 {
+            color: #060505;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #000000;
+            font-size: 30px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: right;
+            height: 25vh;
+            background-color: rgb(243, 113, 113);
+        }
+
+       .author {
+            color: #000000;
+            margin-bottom: 30px;
+            font-size: 20px;
+            background-color: rgba(15, 241, 211, 0.289);
+            margin-bottom: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: right;
+            height: 11vh;
+            width: 60vh;
+            border-radius: 10px;
+        }
+
+       .get-started-btn {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+       .get-started-btn:hover {
+            background-color: #3e8e41;
+        }
+
+       .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            grid-gap: 10px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+       .grid-item {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Scientific Data Visualization<br>
+                UNVEILING CONNECTIONS OF EDUCATION & ECONOMICS ACROSS COUNTRIES</h1>
+        </div>
+        <p>The domain of our project is to explain and establish the connection between education and financial affairs with statistics across globe.
+            By analyzing the data of various countries, let it be GDP, population, education spending, literacy rate, we are just trying to find the numbers and there relation between how rich/poor the countries vs  there education or literacy rate.
+            This project is useful in understanding about education and its effect on various parameters such as socioeconomic growth, country progress, personal growth, technological growth.
+            </p>
+        <p class="author">HARSHA KONDAKINDI-11633332
+            <br> SRI LAKSHMI HARIKA PRATHIPATI-11725379
+            <br> SAI GREESHMA YERUVA- 11656587
+        </p>
+        <a href="Homepage.html" class="get-started-btn">Get Started</a>
+    </div>
+</body>
+</html>

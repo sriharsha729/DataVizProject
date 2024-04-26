@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impact of Population Density on COVID-19 Spread</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Add this CSS animation */
+        @keyframes zoomIn {
+            from {
+                transform: scale(0);
+                opacity: 0;
+            }
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        .zoom-in {
+            animation: zoomIn 0.3s ease-out;
+        }
+
+        /* Styling for the visualization container */
+        .visualization-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .visualization-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .grid-item p {
+            text-align: center;
+            font-family: Arial, sans-serif;
+          }
+
+          .iframe-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Adjust as needed */
+        }
+
+        .iframe-container iframe {
+            width: 1140px;
+            height: 541.25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <p class="title">CONNECTIONS OF EDUCATION & ECONOMICS ACROSS COUNTRIES</p>
+        </div>
+        <div class="nav">
+            <p style="font-size: 2em; font-family: cursive; text-align: center; transition: transform 0.3s;">
+                TASKS
+            </p>
+        </div>
+        <div class="grid-container">
+            <div class="grid-item hoverable" id="rec1">
+                <!-- Visualization 1 -->
+                <p style="font-family: cursive; text-align: center;">D3.js Visualizations on Vizhub</p>
+                <div style="display: flex; justify-content: center;">
+                <iframe src="https://vizhub.com/sriharsha729/34b91f6bb52844c9a4aab65cb84501ea?mode=embed&embed=branded" width="960" height="500" scrolling="no" frameborder="no"></iframe>
+            </div>
+            <div class="grid-item hoverable" id="rec2">
+                <!-- Visualization 2 -->
+                <p style="font-family: cursive; text-align: center;">Power-BI Based Visualizations And Dashboard</p>
+                <div style="display: flex; justify-content: center;">
+                    <iframe title="CSCE5320FINALPROJECT" width="1000" height="500.25" src="https://app.powerbi.com/reportEmbed?reportId=63668aca-6b0f-48c3-9380-477408aa4282&autoAuth=true&ctid=70de1992-07c6-480f-a318-a1afcba03983" frameborder="0" allowFullScreen="true"></iframe>
+                </div>
+            </div>
+            <div class="grid-item hoverable" id="rec3">
+                <!-- Visualization 3 -->
+                <p style="font-family: cursive; text-align: center;">Histogram Visualization (Python)</p>
+                <div class="iframe-container">
+                    <object type="image/svg+xml" data="histogram.svg"></object>
+                    </div>
+                </div>            
+            <div class="grid-item hoverable" id="rec3">
+                <!-- Visualization 3 -->
+                <p style="font-family: cursive; text-align: center;">Histogram Visualization (Python)</p>
+                <div class="iframe-container">
+                    <object type="image/svg+xml" data="scatter.svg"></object>
+                    </div>
+                </div>            
+            </div>
+            <div class="grid-item hoverable" id="rec5">
+                <!-- Visualization 5 -->
+                <p style="font-family: cursive; text-align: center;">Covid cases (Active, Recovered and Dead) for individual countries visualized using Stacked Bar Graph (Power BI)</p>
+                    <object type="image/svg+xml" data="line.svg"></object>          
+            </div> 
+            <div class="grid-item hoverable" id="rec6">
+                <!-- Visualization 6 -->
+                <p style="font-family: cursive; text-align: center;">Covid cases (Active, Recovered and Dead) for individual countries visualized using Stacked Bar Graph (Power BI)</p>
+                    <object type="image/svg+xml" data="combi.svg"></object>           
+            </div>   
+                <!-- Other grid items -->
+    </div>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</body>
+</html>
